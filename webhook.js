@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { exec } = require('child_process');
 //mewmeowhiiiiiiiiiii
-const meow = 150;
+const meow = 120;
 console.log(meow)
 
 
