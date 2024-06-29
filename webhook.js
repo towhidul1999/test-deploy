@@ -17,7 +17,7 @@ app.post('/webhook', (req, res) => {
     // Optionally verify the payload secret here
 
     if (payload.ref === 'refs/heads/main') {  // Change 'main' to your branch name if necessary
-        exec('/path/to/your/app/your-repo/deploy.sh', (error, stdout, stderr) => {
+        exec('/root/test-deploy/deploy.sh', (error, stdout, stderr) => {
             if (error) {
                 console.error(`exec error: ${error}`);
                 return;
