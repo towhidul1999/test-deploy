@@ -2,8 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { exec } = require('child_process');
 //mewmeowhiiiiiiiiiii
-const meow = 10;
-console.log(10)
+const meow = 20;
+console.log(meow)
 
 
 const app = express();
